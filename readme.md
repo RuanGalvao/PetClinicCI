@@ -52,9 +52,6 @@ obs: o banco de dados tem que ser o banco local instalado no host pois não há 
 
 a parte de testes locais foi finalizada
 
-## Agora vamos adicionar informações ao docker compose para automatizarmos o processo manual e criar as instancias no docker.
-
-
 
 ## Configuração do docker compose
 ### nesta etapa o arquivo docker compose automatizará a criação das duas instancias para o docker, ao final desta parte o arquivo docker compose podera ser utilizado para criação das instancias de forma automatizada.
