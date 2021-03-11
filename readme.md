@@ -1,6 +1,6 @@
 # Projeto pet clinic
 
-##Task 1:
+## Task 1:
 
 antes de iniciarmos precisamos preparar o ambiente instalando softwares que vamos utilizar, abaixo a lista necessaria:
 Git, VisualStudio Code, Docker.
