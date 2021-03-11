@@ -11,22 +11,28 @@ antes de iniciarmos precisamos preparar o ambiente instalando softwares que vamo
 Git, Visual Studio Code, Docker.
 
 
-```
 1- Utilizando o Visual Studio Code vamos abrir o terminal dentro do programa ou podemos abrir um terminal no windows, linux ou MacOS.
 vamos navegar ate o caminho onde queremos realizar o clone do repositorio.
 
 2- Vamos realizar o clone do repositorio no github com o comando:
-
+```
 git clone https://github.com/spring-projects/spring-petclinic
+
+```
 
 3- após realizarmos o clone vamos testar localmente o funcionamento:
   3.1 - vamos navegar até a pasta onde clonamos o projeto
   3.2 - dentro da pasta vamos rodar o comando:
+  ```
   mvnw package
-  3.3 - por ultimo caso não funcione você pode executar usando o maven com o comando:
-  mvnw spring-boot:run
 
-```
+  ```
+
+  3.3 - por ultimo caso não funcione você pode executar usando o maven com o comando:
+  ```
+  mvnw spring-boot:run
+  
+  ```
 
 Após isso vc deve conseguir abrir o projeto através do: http://localhost:8080
 
