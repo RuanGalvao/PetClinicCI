@@ -74,11 +74,11 @@ services:
     ports:
       - 8080:8080
     environment:
-      - MYSQL_ROOT_PASSWORD=senhadoroot
+      - MYSQL_ROOT_PASSWORD=
+      - MYSQL_ALLOW_EMPTY_PASSWORD=true
       - MYSQL_USER=petclinic
       - MYSQL_PASSWORD=petclinic
       - MYSQL_DATABASE=petclinic
-      - MYSQL_TCP_PORT=4407
     networks:
       - net-backend
     depends_on:
