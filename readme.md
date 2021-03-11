@@ -30,7 +30,7 @@ git clone https://github.com/spring-projects/spring-petclinic
 
 Após isso vc deve conseguir abrir o projeto através do: http://localhost:8080
 
-##Criando uma imagem docker do nosso aplicativo
+## Criando uma imagem docker do nosso aplicativo
 1- criaremos um arquivo docker file:
 ```
 #Build PetAPP
@@ -109,7 +109,7 @@ http://localhost:8080
 
 se a aplicação aparecer esta tudo certo.
 
-##Enviando a imagem para o docker hub.
+## Enviando a imagem para o docker hub.
 
 1- criamos um repositorio no docker hub
 
